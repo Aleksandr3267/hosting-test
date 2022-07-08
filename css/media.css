@@ -587,7 +587,7 @@
         top: 22px;
     }
     .faq__content .faq-spoiler .content p{
-        padding: 0 40px 25px 50px;
+        padding: 0 40px 25px 30px;
     }
 }
 @media(max-width:500px){
