@@ -123,6 +123,12 @@
         font-size: 1rem;
     }
 }
+@media(max-width:1150px){
+    .benefits .benefits__blocks .block::after{
+        max-width: 245px;
+        right: -190px;
+    }
+}
 @media(max-width:1130px){
     .payment .payment__trial{
         max-width: 620px;
@@ -143,6 +149,10 @@
 
     .benefits .benefits__blocks{
         justify-content: center;
+    }
+    .benefits .benefits__blocks .block::after{
+        max-width: 145px;
+        right: -90px;
     }
 
     .reviews .reviews__content .reviews-right-side{
@@ -188,6 +198,11 @@
     .hosting-servers .hosting-servers__bottom .right-side{
         margin-left: 0;
         margin-top: 50px;
+    }
+}
+@media(max-width:959px){
+    .benefits .benefits__blocks .block:nth-child(2n+2)::after{
+        display: none;
     }
 }
 @media(max-width:940px){
@@ -481,6 +496,15 @@
         display: none;
     }
 }
+@media(max-width:630px){
+    .benefits .benefits__blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits .benefits__blocks .block::after{
+        display: none;
+    }
+}
 @media(max-width:600px){
     .hosting-servers .hosting-servers__bottom .right-side tr th{
         font-size: 1rem;
@@ -589,6 +613,7 @@
     .faq__content .faq-spoiler .content p{
         padding: 0 40px 25px 30px;
     }
+    
 }
 @media(max-width:500px){
     .hosting-servers .hosting-servers__bottom .right-side tr th{
@@ -659,7 +684,8 @@
     .ssl-certificates .ssl-certificates__cards .card .card-list{
         font-size: .875rem;
     }
-     .faq__content .faq-spoiler{
+
+    .faq__content .faq-spoiler{
         max-width: 290px;
         min-width: auto;
     }
