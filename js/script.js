@@ -14,11 +14,6 @@ function burg(event) {
         bodyLock.classList.remove('lock');
     }
 }
-menu.addEventListener('click', function () {
-    burger.classList.remove('active');
-    // menu.classList.remove('active');
-    bodyLock.classList.remove('lock');
-});
 document.addEventListener('keyup', function (event) {
     if (event.code === 'Escape') {
         burger.classList.remove('active');
