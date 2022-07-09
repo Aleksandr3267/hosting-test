@@ -659,6 +659,10 @@
     .ssl-certificates .ssl-certificates__cards .card .card-list{
         font-size: .875rem;
     }
+     .faq__content .faq-spoiler{
+        max-width: 290px;
+        min-width: auto;
+    }
 }
 @media(max-width:397px){
     .header__top .container .header__top-contact{
